@@ -60,6 +60,7 @@ def gd(Q,b,c, x,alpha, verbose=0):
             x.append(i[0,0])
             y.append(i[1,0])
         plt.plot(x,y, marker="o",ls="--",markersize=3,markeredgewidth=6, markeredgecolor="y", markerfacecolor="b")
+        plt.title('gradient descent with learning rate 0.3771609692315777 - 0.00002')
         plt.show()
         print()
 

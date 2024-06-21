@@ -74,7 +74,7 @@ def plot_descent(no_of_pts, final_x, cost, x_star, store_x):
     Z = cost_func(X, Y)
 
     #ax.scatter(X, Y, Z, marker="v", alpha=0.008, c='blue')
-    ax.contour3D(X, Y, Z, 100, cmap='binary')
+    ax.contour3D(X, Y, Z, 50, cmap='binary')
     ax.scatter(X1, Y1, Z1, marker=".", c='green')
 
     if no_of_pts != 0:

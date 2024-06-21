@@ -98,7 +98,7 @@ def sd_with_newtons_method(Q,b,c, x, verbose=0):
     alpha = dk.T @ dk / (dk.T @ Q @ dk)
     #print("alpha shape", alpha.shape)
     f1f2 = -1* (grad2@grad)
-
+    
     xnew = x + f1f2 #alpha*dk 
     store_x += [xnew]
     counter = 0
